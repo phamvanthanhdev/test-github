@@ -4,5 +4,6 @@ public class Test {
   // Add test comment
   int test = 1;
   // add new comment
-  int testOnGit = 10;
+  int testOnGit = 100;
+  string testStr = "pvthanh";
 }
