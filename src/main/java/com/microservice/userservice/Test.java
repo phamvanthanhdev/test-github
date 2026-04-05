@@ -6,5 +6,5 @@ public class Test {
   // add new comment
   int testOnGit = 10;
   String newStr = "new String";
-  String testStr = "pvthanhTest1234567";
+  String testStr = "pvthanhTest1234567Test";
 }
