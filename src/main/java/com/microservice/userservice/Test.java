@@ -5,4 +5,5 @@ public class Test {
   int test = 1;
   // add new comment
   int testOnGit = 10;
+  String newStr = "new String";
 }
