@@ -7,4 +7,5 @@ public class Teacher {
     private String testRevertSoft;
     private String testRevert2;
     private String testRevert3;
+    private String testRevertMix;
 }
