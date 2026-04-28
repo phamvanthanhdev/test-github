@@ -3,8 +3,7 @@ package com.microservice.userservice;
 public class Teacher {
     private int id;
     private String name;
-    private String testRevert1;
-    private String testRevertSoft;
-    private String testRevert2;
-    private String testRevert3;
+    private String testReset1;
+    private String testReset2;
+    private String testReset3;
 }
