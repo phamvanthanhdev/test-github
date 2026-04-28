@@ -5,4 +5,5 @@ public class Teacher {
     private String name;
     private String testRevert1;
     private String testRevertSoft;
+    private String testRevert2;
 }
