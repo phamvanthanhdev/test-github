@@ -14,7 +14,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     private FakeUserService fakeUserService;
 
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+    public CustomUserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         Optional<CustomUserDetails> userOptional = fakeUserService.getUserByUsername(username.toLowerCase());
         if (!userOptional.isPresent()) {
             throw new UsernameNotFoundException(username);
